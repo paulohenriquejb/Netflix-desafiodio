@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="stylesheet" href="./owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+  
+    <title>NETFLIX-CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+        
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Serie</a>
+                <a href="">Filmes</a>
+                <a href="">Documentarios</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">劇場版 七つの大罪 光に呪われし者たち (2021)</h3>
+                <p class="descricao">Meliodas e seus amigos entram em ação novamente quando a nova era de paz é ameaçada por uma poderosa aliança mágica que pode acabar com tudo.</p>
+            </div>
+            <div class="container botoes">
+                <button role="button" class="botao"><i class="fas fa-play"></i> ASSISTIR AGORA</button>
+                <button role="button" class="botao"> <i class="fas fa-info-circle"> </i>MAIS INFORMAÇÕES</button>
+
+            </div>
+        </div>
+    </main>
+    </div>
+
+            <div class="owl-carousel owl-theme ">
+                <div class="item"><img src="img/mini1.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini2.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini3.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini4.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini5.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini6.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini7.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini8.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini9.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini10.jpg" alt="" srcset=""></div>
+            </div> <br>
+
+            <div class="owl-carousel owl-theme ">
+                <div class="item"><img src="img/mini12.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini13.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini14.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini15.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini16.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini17.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini18.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini19.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini20.jpg" alt="" srcset=""></div>
+                <div class="item"><img src="img/mini21.jpg" alt="" srcset=""></div>
+            </div> <br>
+  
+  
+    <script src="./jquery/jquery.js"></script>
+    <script src="./owlcarousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+   
+   <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+</body>
+</html>
